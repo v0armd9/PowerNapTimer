@@ -13,12 +13,34 @@ class ViewController: UIViewController {
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var napButton: UIButton!
     
+    let timer = MyTimer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
 
+    }
+    
     @IBAction func napButtonTapped(_ sender: UIButton) {
+    }
+    
+    func updateLabel() {
+        
+    }
+    
+    func updateButton() {
+        
+    }
+    
+    func startTimer() {
+        
+    }
+    
+    func stopTimer() {
+        
+    }
+    
+    func setTimer() {
+        
     }
     
 }

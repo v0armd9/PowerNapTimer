@@ -13,6 +13,7 @@
 		2C2141EE22B9472D0069FB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2141ED22B9472D0069FB05 /* Assets.xcassets */; };
 		2C2141F122B9472D0069FB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2141EF22B9472D0069FB05 /* LaunchScreen.storyboard */; };
 		2CC0D36722B94BCE0029CB6A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC0D36622B94BCE0029CB6A /* Default-568h@2x.png */; };
+		2CC0D36922B94F2F0029CB6A /* myTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC0D36822B94F2F0029CB6A /* myTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2C2141F022B9472D0069FB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C2141F222B9472D0069FB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CC0D36622B94BCE0029CB6A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2CC0D36822B94F2F0029CB6A /* myTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		2C2141FA22B947670069FB05 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2CC0D36822B94F2F0029CB6A /* myTimer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				2C2141E922B947290069FB05 /* ViewController.swift in Sources */,
 				2C2141E722B947290069FB05 /* AppDelegate.swift in Sources */,
+				2CC0D36922B94F2F0029CB6A /* myTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
