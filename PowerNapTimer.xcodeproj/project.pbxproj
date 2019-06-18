@@ -12,6 +12,7 @@
 		2C2141EC22B947290069FB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2141EA22B947290069FB05 /* Main.storyboard */; };
 		2C2141EE22B9472D0069FB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2141ED22B9472D0069FB05 /* Assets.xcassets */; };
 		2C2141F122B9472D0069FB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2141EF22B9472D0069FB05 /* LaunchScreen.storyboard */; };
+		2CC0D36722B94BCE0029CB6A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC0D36622B94BCE0029CB6A /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2C2141ED22B9472D0069FB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C2141F022B9472D0069FB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C2141F222B9472D0069FB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC0D36622B94BCE0029CB6A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		2C2141DA22B947290069FB05 = {
 			isa = PBXGroup;
 			children = (
+				2C2141EA22B947290069FB05 /* Main.storyboard */,
 				2C2141E522B947290069FB05 /* PowerNapTimer */,
 				2C2141E422B947290069FB05 /* Products */,
 			);
@@ -57,7 +60,6 @@
 				2C2141F922B9474F0069FB05 /* Controllers */,
 				2C2141FA22B947670069FB05 /* Models */,
 				2C2141F822B947450069FB05 /* Resources */,
-				2C2141EA22B947290069FB05 /* Main.storyboard */,
 			);
 			path = PowerNapTimer;
 			sourceTree = "<group>";
@@ -65,6 +67,7 @@
 		2C2141F822B947450069FB05 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2CC0D36622B94BCE0029CB6A /* Default-568h@2x.png */,
 				2C2141E622B947290069FB05 /* AppDelegate.swift */,
 				2C2141ED22B9472D0069FB05 /* Assets.xcassets */,
 				2C2141EF22B9472D0069FB05 /* LaunchScreen.storyboard */,
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C2141F122B9472D0069FB05 /* LaunchScreen.storyboard in Resources */,
+				2CC0D36722B94BCE0029CB6A /* Default-568h@2x.png in Resources */,
 				2C2141EE22B9472D0069FB05 /* Assets.xcassets in Resources */,
 				2C2141EC22B947290069FB05 /* Main.storyboard in Resources */,
 			);

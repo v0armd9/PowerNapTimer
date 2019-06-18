@@ -9,12 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var timerLabel: UILabel!
+    @IBOutlet weak var napButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func napButtonTapped(_ sender: UIButton) {
+    }
+    
 }
 
